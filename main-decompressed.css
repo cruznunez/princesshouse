@@ -31,7 +31,7 @@
 }
 /* line 16, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/calculator.scss */
 .calculator tr td.pressed {
-  background: #67000F;
+  background: #61337e;
   padding-top: 5px;
 }
 @media (min-width: 768px) {
@@ -40,15 +40,14 @@
     background: #61337e;
   }
 }
-@import "https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400";
 @font-face {
   font-family: 'princesshouse';
-  src: url(fonts/princesshouse.eot);
-  src: url(fonts/princesshouse.eot?) format("embedded-opentype"), url(fonts/princesshouse.ttf) format("truetype"), url(fonts/princesshouse.woff) format("woff"), url(fonts/princesshouse.svg) format("svg");
+  src: url(/assets/princesshouse-80587526c57adb734ebbd49f46c535c18acbf51b7c9bb769f0b3519c811d1635.eot?1xryv7);
+  src: url(/assets/princesshouse-80587526c57adb734ebbd49f46c535c18acbf51b7c9bb769f0b3519c811d1635.eot?1xryv7#iefix) format("embedded-opentype"), url(/assets/princesshouse-451c55295cb86d18283c888541a04086fa26d41bf0874938ec665ad2195333f0.ttf?1xryv7) format("truetype"), url(/assets/princesshouse-58f18b4b76162c966665bac22541cdb355c0be677d0e06d26fa25438135e7ac3.woff?1xryv7) format("woff"), url(/assets/princesshouse-dd8abeb30b318753960899d09a0ab369f92baf368f3f7f42d49840e03f10542e.svg?1xryv7#princesshouse) format("svg");
   font-weight: normal;
   font-style: normal;
 }
-/* line 14, /Users/cruz/Desktop/projects/princess_house_calculator/app/assets/stylesheets/fonts.scss */
+/* line 14, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/fonts.scss */
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'princesshouse' !important;
@@ -63,7 +62,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 29, /Users/cruz/Desktop/projects/princess_house_calculator/app/assets/stylesheets/fonts.scss */
+/* line 29, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/fonts.scss */
 .icon-logo:before {
   content: "\e900";
 }
@@ -82,12 +81,12 @@
   width: 100%;
   transition: opacity 0.5s 0.5s;
 }
-/* line 17, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/items.scss */
+/* line 18, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/items.scss */
 .price:focus {
   outline: none;
 }
 
-/* line 21, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/items.scss */
+/* line 22, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/items.scss */
 .results {
   font-size: 1.2em;
   font-weight: 200;
@@ -97,12 +96,12 @@
   transition: all 0.5s 0.5s;
   width: 100%;
 }
-/* line 30, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/items.scss */
+/* line 31, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/items.scss */
 .results td {
   width: 30%;
 }
 
-/* line 34, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/items.scss */
+/* line 35, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/items.scss */
 .titles {
   font-weight: 400;
 }
@@ -139,7 +138,7 @@ body {
   }
 }
 /* line 26, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/layout.scss */
-.container.hidden table, .container.hidden div, .container.hidden header, .container.hidden input {
+.container.hidden table, .container.hidden div, .container.hidden label, .container.hidden input {
   opacity: 0;
 }
 @media only screen and (orientation: portrait) and (min-width: 1px) and (max-width: 767px) {
@@ -185,9 +184,10 @@ body {
 }
 
 /* line 59, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/layout.scss */
-header {
+label {
+  display: block;
   font-size: 1.1em;
-  font-weight: 300;
+  font-weight: 200;
   height: 8%;
   line-height: 8vh;
   text-align: center;
