@@ -40,6 +40,7 @@
     background: #61337e;
   }
 }
+@import "https://fonts.googleapis.com/css?family=Work+Sans:100,200,400";
 @font-face {
   font-family: 'princesshouse';
   src: url(/assets/princesshouse-80587526c57adb734ebbd49f46c535c18acbf51b7c9bb769f0b3519c811d1635.eot?1xryv7);
@@ -47,7 +48,7 @@
   font-weight: normal;
   font-style: normal;
 }
-/* line 14, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/fonts.scss */
+/* line 15, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/fonts.scss */
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'princesshouse' !important;
@@ -62,7 +63,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 29, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/fonts.scss */
+/* line 30, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/fonts.scss */
 .icon-logo:before {
   content: "\e900";
 }
@@ -81,12 +82,12 @@
   width: 100%;
   transition: opacity 0.5s 0.5s;
 }
-/* line 18, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/items.scss */
+/* line 17, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/items.scss */
 .price:focus {
   outline: none;
 }
 
-/* line 22, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/items.scss */
+/* line 21, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/items.scss */
 .results {
   font-size: 1.2em;
   font-weight: 200;
@@ -96,12 +97,12 @@
   transition: all 0.5s 0.5s;
   width: 100%;
 }
-/* line 31, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/items.scss */
+/* line 30, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/items.scss */
 .results td {
   width: 30%;
 }
 
-/* line 35, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/items.scss */
+/* line 34, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/items.scss */
 .titles {
   font-weight: 400;
 }
