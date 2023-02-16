@@ -43,10 +43,11 @@
 @import "https://fonts.googleapis.com/css?family=Work+Sans:100,200,400";
 @font-face {
   font-family: 'princesshouse';
-  src: url(/assets/princesshouse-80587526c57adb734ebbd49f46c535c18acbf51b7c9bb769f0b3519c811d1635.eot?1xryv7);
-  src: url(/assets/princesshouse-80587526c57adb734ebbd49f46c535c18acbf51b7c9bb769f0b3519c811d1635.eot?1xryv7#iefix) format("embedded-opentype"), url(/assets/princesshouse-451c55295cb86d18283c888541a04086fa26d41bf0874938ec665ad2195333f0.ttf?1xryv7) format("truetype"), url(/assets/princesshouse-58f18b4b76162c966665bac22541cdb355c0be677d0e06d26fa25438135e7ac3.woff?1xryv7) format("woff"), url(/assets/princesshouse-dd8abeb30b318753960899d09a0ab369f92baf368f3f7f42d49840e03f10542e.svg?1xryv7#princesshouse) format("svg");
+  src: url(fonts/princesshouse.eot);
+  src: url(fonts/princesshouse.eot) format("embedded-opentype"), url(fonts/princesshouse.ttf) format("truetype"), url(fonts/princesshouse.woff) format("woff"), url(fonts/princesshouse.svg) format("svg");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 /* line 15, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/fonts.scss */
 [class^="icon-"], [class*=" icon-"] {
