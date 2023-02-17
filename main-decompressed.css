@@ -40,11 +40,11 @@
     background: #61337e;
   }
 }
-@import "https://fonts.googleapis.com/css?family=Work+Sans:100,200,400&display=swap";
+@import "https://fonts.googleapis.com/css?family=Work+Sans:200,400&display=swap";
 @font-face {
   font-family: 'princesshouse';
   src: url(fonts/princesshouse.eot);
-  src: url(fonts/princesshouse.eot) format("embedded-opentype"), url(/princesshouse.ttf) format("truetype"), url(fonts/princesshouse.woff) format("woff"), url(fonts/princesshouse.svg) format("svg");
+  src: url(fonts/princesshouse.eot) format("embedded-opentype"), url(fonts/princesshouse.ttf) format("truetype"), url(fonts/princesshouse.woff) format("woff"), url(fonts/princesshouse.svg) format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -75,7 +75,7 @@
   color: white;
   text-align: right;
   font-size: 4em;
-  font-weight: 100;
+  font-weight: 200;
   font-family: inherit;
   right: 0;
   height: 22%;
