@@ -40,7 +40,6 @@
     background: #61337e;
   }
 }
-@import "https://fonts.googleapis.com/css?family=Work+Sans:200,400&display=swap";
 @font-face {
   font-family: 'princesshouse';
   src: url(fonts/princesshouse.eot);
@@ -113,11 +112,10 @@ body {
   height: 100%;
   background: #F9F9F9;
   color: white;
-  font-family: verdana, arial, helvetica, sans-serif;
-  font-family: 'Work Sans', sans-serif;
+  font-family: cursive;
 }
 
-/* line 11, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/layout.scss */
+/* line 12, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/layout.scss */
 .container {
   left: 0;
   right: 0;
@@ -128,64 +126,64 @@ body {
   box-shadow: 0 1px 30px rgba(0, 0, 0, 0.4);
 }
 @media screen and (orientation: portrait) {
-  /* line 11, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/layout.scss */
+  /* line 12, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/layout.scss */
   .container {
     width: 100%;
   }
 }
 @media screen and (orientation: landscape) {
-  /* line 11, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/layout.scss */
+  /* line 12, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/layout.scss */
   .container {
     width: 56.25vh;
   }
 }
-/* line 26, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/layout.scss */
+/* line 27, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/layout.scss */
 .container.hidden table, .container.hidden div, .container.hidden label, .container.hidden input {
   opacity: 0;
 }
 @media only screen and (orientation: portrait) and (min-width: 1px) and (max-width: 767px) {
-  /* line 29, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/layout.scss */
+  /* line 30, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/layout.scss */
   .container.hidden .icon-logo {
     font-size: 82vw;
   }
 }
 @media screen and (orientation: portrait) and (min-width: 768px) and (max-width: 992px) {
-  /* line 29, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/layout.scss */
+  /* line 30, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/layout.scss */
   .container.hidden .icon-logo {
     font-size: 70vw;
   }
 }
 
 @media screen and (orientation: landscape) {
-  /* line 29, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/layout.scss */
+  /* line 30, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/layout.scss */
   .container.hidden .icon-logo {
     font-size: 46.125vh;
   }
 }
-/* line 42, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/layout.scss */
+/* line 43, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/layout.scss */
 .container.hidden .welcome {
   opacity: 1;
 }
-/* line 45, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/layout.scss */
+/* line 46, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/layout.scss */
 .container.hidden .logo-container {
   z-index: 1;
   top: 15vh;
   height: 65vh;
 }
 @media screen and (orientation: portrait) {
-  /* line 45, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/layout.scss */
+  /* line 46, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/layout.scss */
   .container.hidden .logo-container {
     width: 100%;
   }
 }
 @media screen and (orientation: landscape) {
-  /* line 45, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/layout.scss */
+  /* line 46, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/layout.scss */
   .container.hidden .logo-container {
     width: 56.25vh;
   }
 }
 
-/* line 59, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/layout.scss */
+/* line 60, /Users/cruz/Desktop/projects/personal/princess_house_calculator/app/assets/stylesheets/layout.scss */
 label {
   display: block;
   font-size: 1.1em;
