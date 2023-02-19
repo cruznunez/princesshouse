@@ -1,5 +1,25 @@
 {
   "short_name": "Princess House Calculator",
   "name": "Princess House Calculator",
+  "icons": [
+    {
+      "src": "logo-small.jpg",
+      "type": "image/jpeg",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo-large.jpg",
+      "type": "image/jpeg",
+      "sizes": "512x512"
+    },
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "240x245"
+    }
+  ],
+  "start_url": "https://cruznunez.github.io/princesshouse/",
+  "display": "fullscreen",
+  "prefer_related_applications": false,
   "theme_color": "#3367D6"
 }
