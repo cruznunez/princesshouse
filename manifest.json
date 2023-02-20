@@ -18,6 +18,11 @@
       "sizes": "512x512"
     },
     {
+      "src": "logo-large.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
       "src": "logo.png",
       "type": "image/png",
       "sizes": "240x245"
@@ -32,5 +37,6 @@
   "start_url": "https://cruznunez.github.io/princesshouse/",
   "display": "standalone",
   "prefer_related_applications": false,
+  "background_color": "#6F3A90",
   "theme_color": "#6F3A90"
 }
