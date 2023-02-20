@@ -19,7 +19,7 @@
     }
   ],
   "start_url": "https://cruznunez.github.io/princesshouse/",
-  "display": "standalone", 
+  "display": "standalone",
   "prefer_related_applications": false,
-  "theme_color": "#3367D6"
+  "theme_color": "#6F3A90"
 }
